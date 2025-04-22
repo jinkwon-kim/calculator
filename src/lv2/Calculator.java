@@ -26,7 +26,9 @@ public class Calculator {
         return result;
     }
     public void removeResult() {
-
+    if (results.isEmpty() ) {
+    results.remove(0);
+    }
     }
     public List getResults() {
     return results;

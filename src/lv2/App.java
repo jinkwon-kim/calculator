@@ -19,15 +19,20 @@ public class App {
             //Calculator 활용되도록 수정
             int result =cal.calculate(num1,num2,symbol);
             System.out.println("결과 = " + result);
+            System.out.println("저장된 결과들 불러오기" + cal.getResults());
             System.out.println("더 계산하시겠습니까? (exit 입력 시 종료)");
             String input = scan.nextLine();
             if (input.equals("exit")){
                 System.out.println("프로그램을 종료합니다.");
-               break;
+                break;
+            }
+            cal.removeResult();
+
+
+
              }
 
         }
 
 
     }
-}
