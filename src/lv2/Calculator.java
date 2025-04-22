@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Calculator {
     // 컬렉션 타입 필드 선언 및 생성
-    private List<Integer> results = new ArrayList<>();
+    public List<Integer> results = new ArrayList<>();
 
 
     //계산 수행하는 기능 생성
