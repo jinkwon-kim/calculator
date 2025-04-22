@@ -16,7 +16,7 @@ public class App {
             //사칙연산 기호 변수에 넣기
             System.out.println("사칙연산 기호를 입력하세요");
             char symbol = scan.nextLine().charAt(0);
-            //calculator가 활용되도록 수정
+            //Calculator 활용되도록 수정
             int result =cal.calculate(num1,num2,symbol);
             System.out.println("결과 = " + result);
             System.out.println("더 계산하시겠습니까? (exit 입력 시 종료)");
