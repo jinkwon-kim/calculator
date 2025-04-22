@@ -25,10 +25,14 @@ public class Calculator {
         results.add(result);
         return result;
     }
+    public void removeResult() {
+
+    }
     public List getResults() {
     return results;
     }
     public void setResults(List<Integer> results) {
         this.results = results;
     }
+
 }
